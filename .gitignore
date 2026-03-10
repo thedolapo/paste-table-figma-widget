@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Logs
 logs
 *.log
@@ -137,3 +138,16 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+=======
+node_modules/
+.env
+.env.*
+*.local
+*.log
+*.token
+secrets
+playwright-report/
+test-results/
+.DS_Store
+dist/
+>>>>>>> Initial commit: Paste Table Figma widget

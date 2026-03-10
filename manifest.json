@@ -1,0 +1,14 @@
+{
+  "name": "Paste Table",
+  "id": "paste-table-widget",
+  "api": "1.0.0",
+  "widgetApi": "1.0.0",
+  "editorType": ["figma"],
+  "containsWidget": true,
+  "main": "code.js",
+  "ui": "ui.html",
+  "documentAccess": "dynamic-page",
+  "networkAccess": {
+    "allowedDomains": ["none"]
+  }
+}
