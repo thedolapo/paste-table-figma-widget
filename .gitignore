@@ -1,0 +1,11 @@
+node_modules/
+.env
+.env.*
+*.local
+*.log
+*.token
+secrets
+playwright-report/
+test-results/
+.DS_Store
+dist/

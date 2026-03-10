@@ -1,0 +1,20 @@
+{
+  "name": "paste-table-widget",
+  "version": "1.0.0",
+  "description": "Figma widget to paste table content and get an editable table on the canvas",
+  "scripts": {
+    "prebuild": "node scripts/inline-ui.js",
+    "build": "npm run prebuild && tsc --noEmit && node scripts/bundle.js",
+    "watch": "npm run prebuild && tsc --watch",
+    "test": "playwright test",
+    "tests": "playwright test",
+    "test:report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@figma/plugin-typings": "^1.102.0",
+    "@figma/widget-typings": "^1.8.0",
+    "@playwright/test": "^1.58.2",
+    "esbuild": "^0.24.0",
+    "typescript": "^5.3.0"
+  }
+}
